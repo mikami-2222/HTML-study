@@ -1,18 +1,45 @@
 /* ===== Step 2: 文字の色とサイズ ===== */
 /* h1 と p にスタイルを書いてみよう */
+h1 {
+  color: rgb(201, 147, 252);
+  font-size: 28px;
+}
 
-
+p {
+  color: rgb(149, 28, 153);
+  font-size: 16px;
+}
 /* ===== Step 3: 背景色 ===== */
 /* body や h1 に background-color を追加しよう */
+body {
+  background-color: rgb(206, 248, 255);
+}
 
-
+h1 {
+  color: floralwhite;
+  background-color: rgb(198, 164, 241);
+  padding: 16px;
+}
 /* ===== Step 4: クラスセレクタ ===== */
 /* .box にスタイルを書いてみよう */
-
-
+.box {
+  background-color: rgb(198, 164, 241);
+  color: rgb(255, 255, 255);
+  padding: 16px;
+  margin-bottom: 8px;
+}
 /* ===== Step 5: 余白（margin, padding） ===== */
 /* padding と margin を調整しよう */
+.box {
+  padding: 40px;
+  padding: 10px 40px;
+}
+.box {
+  margin-bottom: 16px;
+}
 
-
+.cord {
+  margin: 20px;
+}
 /* ===== Step 6: 枠線と角丸 ===== */
 /* .card に border と border-radius を追加しよう */
