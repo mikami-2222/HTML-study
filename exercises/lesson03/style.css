@@ -67,8 +67,6 @@ h2 {
   min-width: 200px;
 }
 /* .wrap-demo に flex-wrap と gap を書こう */
-.nowrap-demo {
-}
 
 .wrap-demo {
   flex-wrap: wrap;
