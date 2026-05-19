@@ -68,7 +68,6 @@ h2 {
 }
 /* .wrap-demo に flex-wrap と gap を書こう */
 .nowrap-demo {
-  /* デフォルト :折り返さない (はみ出す) */
 }
 
 .wrap-demo {
